@@ -1,0 +1,340 @@
+
+<!DOCTYPE HTML><section id="cat" class="normative">
+   <h2>Gegevensdefinitie</h2>
+   <!--MIMLM-MIM-1.0-0-20240216-20240315-131722 imvertor 3.0.0-->
+   <section id="EAID_17883B31_A5DA_413b_8BC8_4048AE36E1BD">
+      <h3>   datatypen - overzicht</h3>
+      <div class="imageinfo overview">
+         <figure><img src="data/Images/EAID_17883B31_A5DA_413b_8BC8_4048AE36E1BD.png" usemap="#imagemap-EAID_17883B31_A5DA_413b_8BC8_4048AE36E1BD" alt="Diagram &#xA;                        Overzicht van de primitieve datatypen uit het MIM model&#xA;                     "><figcaption>datatypen</figcaption>
+         </figure><map name="imagemap-EAID_17883B31_A5DA_413b_8BC8_4048AE36E1BD"><area shape="rect" alt="Year" coords="14,14,137,96" href="#global_class_datatypen_Year"><area shape="rect" alt="URI" coords="159,14,282,96" href="#global_class_datatypen_URI"><area shape="rect" alt="Month" coords="300,14,423,96" href="#global_class_datatypen_Month"><area shape="rect" alt="Integer" coords="446,14,569,96" href="#global_class_datatypen_Integer"><area shape="rect" alt="Decimal" coords="19,116,142,198" href="#global_class_datatypen_Decimal"><area shape="rect" alt="Day" coords="159,116,282,198" href="#global_class_datatypen_Day"><area shape="rect" alt="DateTime" coords="300,116,423,198" href="#global_class_datatypen_DateTime"><area shape="rect" alt="Date" coords="438,116,561,198" href="#global_class_datatypen_Date"><area shape="rect" alt="CharacterString" coords="26,216,149,298" href="#global_class_datatypen_CharacterString"><area shape="rect" alt="Boolean" coords="168,216,291,298" href="#global_class_datatypen_Boolean"><area shape="rect" alt="Real" coords="306,216,430,298" href="#global_class_datatypen_Real"></map><p>
+            
+            <p>Overzicht van de primitieve datatypen uit het MIM model</p>
+            </p>
+      </div>
+   </section>
+   <section>
+      <h3>Primitieve datatypen   </h3>
+      
+      <section id="global_class_datatypen_Month">
+         <h4>Primitief datatype   Month</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Month</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>2-cijferige maand uitgedrukt in mm conform https://en.wikipedia.org/wiki/ISO_8601</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_CharacterString">
+         <h4>Primitief datatype   Character­String</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Character­String</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Zie [iso-19103]. Vrij vertaald: alle alfanumerieke tekens en speciale tekens die horen
+                        bij de gekozen characterset (standaard UTF-8), dus met diakrieten, white spaces, -teken
+                        en newlines of HTML opmaak e.d. Mag starten met spatie. De maximale lengte is onbepaald.</p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     
+                     <p>Opmerking: getallen (ISO Numbers) met voorloopnullen worden opgenomen als Character­String,
+                        met een patroon of formeel patroon. Bij het metagegeven Waardenverzameling attribuutsoort
+                        wordt dit dan (ook) gespecificeerd.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Date">
+         <h4>Primitief datatype   Date</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Date</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>4-cijferig jaar, 2-cijferig maand, 2-cijferig dag uitgedrukt in yyyy-mm-dd conform
+                        https://en.wikipedia.org/wiki/ISO_8601</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_DateTime">
+         <h4>Primitief datatype   Date­Time</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Date­Time</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>yyyy-mm-dd­Thh:mm:ss conform https://en.wikipedia.org/wiki/ISO_8601</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Integer">
+         <h4>Primitief datatype   Integer</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Integer</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p> Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: geheel getal, lengte is
+                        minimaal 1 en maximale lengte is onbepaald, zonder voorloopnullen. Opmerking: t.a.v.
+                        positieve en negatieve getalen en + en ï¿½ tekens: bijvoorbeeld -2,0 Het (formeel)
+                        patroon geeft aan of een + en/of - teken gebruikt mag worden in het gegeven.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_URI">
+         <h4>Primitief datatype   URI</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>URI</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Unieke identificatie op internet conform RFC3986 en de URI-strategie Linked Open Data.
+                        Gestandaardiseerde manier om op het internet dingen (pagina's met informatie, objecten,
+                        datasets) uniek te identificeren.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Decimal">
+         <h4>Primitief datatype   Decimal</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Decimal</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p> Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een decimal is een gegevenstype
+                        waarin het getal een exacte waarde vertegenwoordigt, als een eindige weergave van
+                        een decimaal getal. </p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     
+                     <p>Aangezien veel valuta's decimaal zijn, hebben deze weergaven de voorkeur bij het omgaan
+                        met dergelijke waarden.
+                        Opmerking 1: Dit verschilt van real, want real is een geschatte waarde en Decimal
+                        is exact. 
+                        Opmerking 2: t.a.v. positieve en negatieve getalen en + en ï¿½ tekens: zie Integer.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Boolean">
+         <h4>Primitief datatype   Boolean</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Boolean</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>Indicatie met mogelijke waarden True, false, 1 of 0. True en 1 hebben een identieke
+                        betekenis: Ja. False en 0 hebben een identieke betekenis: Nee. Opmerking: t.a.v. Ja
+                        of Nee. </p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     
+                     <p>Wanneer u de Ja of Nee wilt gebruiken, gebruik dan bv. een Enumeratie genaamd Indicatie,
+                        of gebruik AN met een lengte en een (formeel) patroon.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Day">
+         <h4>Primitief datatype   Day</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Day</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>2-cijferige dag uitgedrukt in dd conform https://en.wikipedia.org/wiki/ISO_8601</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Year">
+         <h4>Primitief datatype   Year</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Year</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p>4-cijferig jaar uitgedrukt in yyyy conform https://en.wikipedia.org/wiki/ISO_8601</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      
+      <section id="global_class_datatypen_Real">
+         <h4>Primitief datatype   Real</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Real</td>
+               </tr>
+               <tr>
+                  <th>Definitie</th>
+                  <td>
+                     
+                     
+                     <p> Zie [iso-19103] (subtype van ISO Number). Vrij vertaald: een real is een zwevendekommagetal,
+                        waarbij de precisie bepaald wordt door het aantal getoonde cijfers. Het getoonde getal
+                        is een schatting en geeft niet noodzakelijk de exacte waarde weer. </p>
+                     
+                     </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     
+                     <p>Dit verschilt van decimal, want decimal is een exacte waarde en real is geschat. Opmerking
+                        2: t.a.v. positieve en negatieve getalen en + en ï¿½ tekens: zie Integer.</p>
+                     
+                     </td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      </section>
+</section>
