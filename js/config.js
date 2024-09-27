@@ -23,9 +23,9 @@ let respecConfig = {
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
   pubDomain: "geonovum",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
-  //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
-  //licence: "cc0",                 // Public Domain Dedication
-  licence: "cc-by",                 // Attribution, met bronvermelding
+  //license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
+  //license: "cc0",                 // Public Domain Dedication
+  license: "cc-by",                 // Attribution, met bronvermelding
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "allemodellen",
   
