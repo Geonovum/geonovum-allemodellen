@@ -721,7 +721,7 @@
         "target": [
           ".tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .toc > .tocline:nth-child(3) > .tocxref"
         ],
-        "html": "<a class=\"tocxref\" href=\"#detail_attribute_IMGeluidAlgemeen_GeluidproductieplafondobjectIndustrie_beginTijdelijkeOntheffingLnight\">",
+        "html": "<a class=\"tocxref\" href=\"#detail_attribute_IMGeluidAlgemeen_GeluidproductieplafondobjectIndustrie_beginTijdelijkeOntheffingLnight\"><bdi class=\"secno\">5.14.1.5.3 </bdi>Attribuutsoort details  <span class=\"formerLink\">Geluidproductieplafondobject­Industrie</span> begin­Tijdelijke­Ontheffing­Lnight</a>",
         "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
       },
       {
